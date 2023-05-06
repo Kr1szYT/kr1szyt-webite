@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+	<meta charset="UTF-8">
+	<title>FYREMC Regisztráció</title>
+</head>
+<body>
+	<h1>FYREMC Regisztráció</h1>
+	<form action="regisztracio.php" method="post">
+		<label for="felhasznalo_nev">Felhasználónév:</label>
+		<input type="text" id="felhasznalo_nev" name="felhasznalo_nev" required>
+
+		<label for="email">E-mail cím:</label>
+		<input type="email" id="email" name="email" required>
+
+		<label for="jelszo">Jelszó:</label>
+		<input type="password" id="jelszo" name="jelszo" required>
+
+		<label for="jelszo_megerosites">Jelszó megerősítése:</label>
+		<input type="password" id="jelszo_megerosites" name="jelszo_megerosites" required>
+
+		<input type="submit" value="Regisztráció">
+	</form>
+</body>
+</html>
